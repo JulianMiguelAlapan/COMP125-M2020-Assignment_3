@@ -1,0 +1,15 @@
+{
+  "name": "comp125-m2020-assignment_3",
+  "version": "1.0.0",
+  "description": "COMP125 Assignment 3",
+  "main": "index.js",
+  "repository": "https://github.com/JulianMiguelAlapan/COMP125-M2020-Assignment_3.git",
+  "author": "Julian Miguel Alapan <jalapan1@my.centennialcollege.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
