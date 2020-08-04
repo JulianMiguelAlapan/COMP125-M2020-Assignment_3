@@ -346,7 +346,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "https://github.com/JulianMiguelAlapan/COMP125-M2020-Assignment_3/blob/fd0795f3c8db4f81b68036971b08ba3224f96cda/Views/content/home.html");
+        XHR.open("GET", "./Views/content/home.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -374,7 +374,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "https://github.com/JulianMiguelAlapan/COMP125-M2020-Assignment_3/blob/4077c1acf50f8f9e43f8d54b08375dfca2f980b8/Views/content/projects.html");
+        XHR.open("GET", "./Views/content/projects.html");
 
         // step 3 - Executes the request
         XHR.send();
