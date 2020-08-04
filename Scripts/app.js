@@ -240,7 +240,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "./Data/addressbook.json");
+        XHR.open("GET", "../Data/addressbook.json");
 
         // step 3 - Executes the request
         XHR.send();
@@ -294,7 +294,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "./Views/partials/footer.html");
+        XHR.open("GET", "../Views/partials/footer.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -319,7 +319,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "./Views/content/contact.html");
+        XHR.open("GET", "../Views/content/contact.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -346,7 +346,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "/Views/content/home.html");
+        XHR.open("GET", "../Views/content/home.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -374,7 +374,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "./Views/content/projects.html");
+        XHR.open("GET", "../Views/content/projects.html");
 
         // step 3 - Executes the request
         XHR.send();
