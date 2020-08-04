@@ -156,7 +156,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "./Views/partials/header.html");
+        XHR.open("GET", "../Views/partials/header.html");
 
         // step 3 - Executes the request
         XHR.send();
