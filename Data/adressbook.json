@@ -1,0 +1,40 @@
+{
+    "addressBook":
+    [
+        {
+        "firstName": "Julian Miguel",
+        "lastName": "Alapan",
+        "emailAddress": "julianmiguelalapan@example.com",
+        "contactNumber": "4165555555",
+        "shortMessage": "Hello, World!" 
+        },
+        {
+        "firstName": "Peter",
+        "lastName": "Parker",
+        "emailAddress": "peter@example.com",
+        "contactNumber": "4165555556",
+        "shortMessage": "With great power..." 
+        },
+        {
+        "firstName": "Anthony",
+        "lastName": "Stark",
+        "emailAddress": "tony@example.com",
+        "contactNumber": "4165555557",
+        "shortMessage": "Hey Jarvis, can you..." 
+        },
+        {
+        "firstName": "Stephen",
+        "lastName": "Strange",
+        "emailAddress": "strange@example.com",
+        "contactNumber": "4165555558",
+        "shortMessage": "By the Hoary Hosts of Hoggoth!" 
+        },
+        {
+        "firstName": "Bruce",
+        "lastName": "Banner",
+        "emailAddress": "hulk@example.com",
+        "contactNumber": "4165555559",
+        "shortMessage": "Puny human, Hulk Smash!!!" 
+        }
+    ]
+}
