@@ -346,7 +346,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "./Views/content/home.html");
+        XHR.open("GET", "/Views/content/home.html");
 
         // step 3 - Executes the request
         XHR.send();
