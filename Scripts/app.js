@@ -195,7 +195,7 @@
 
         let XHR = new XMLHttpRequest();
 
-        XHR.open("GET", "COMP125-M2020-Assignment_3/Scripts/paragraphs.json");
+        XHR.open("GET", "./Scripts/paragraphs.json");
 
         XHR.send();
 
@@ -240,7 +240,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "COMP125-M2020-Assignment_3/Data/addressbook.json");
+        XHR.open("GET", "./Data/addressbook.json");
 
         // step 3 - Executes the request
         XHR.send();
@@ -294,7 +294,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "/COMP125-M2020-Assignment_3/Views/partials/footer.html");
+        XHR.open("GET", "./Views/partials/footer.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -319,7 +319,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "/COMP125-M2020-Assignment_3/Views/content/contact.html");
+        XHR.open("GET", "./Views/content/contact.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -346,7 +346,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "COMP125-M2020-Assignment_3/Views/content/home.html");
+        XHR.open("GET", "./Views/content/home.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -374,7 +374,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "./COMP125-M2020-Assignment_3/Views/content/projects.html");
+        XHR.open("GET", "./Views/content/projects.html");
 
         // step 3 - Executes the request
         XHR.send();
