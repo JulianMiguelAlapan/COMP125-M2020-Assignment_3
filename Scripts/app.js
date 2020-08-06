@@ -294,7 +294,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "COMP125-M2020-Assignment_3/Views/partials/footer.html");
+        XHR.open("GET", "/COMP125-M2020-Assignment_3/Views/partials/footer.html");
 
         // step 3 - Executes the request
         XHR.send();
