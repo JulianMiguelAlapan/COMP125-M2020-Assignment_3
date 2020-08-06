@@ -156,7 +156,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "julianmiguelalapan.github.io/COMP125-M2020-Assignment_3/Views/partials/header.html");
+        XHR.open("GET", "COMP125-M2020-Assignment_3/Views/partials/header.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -294,7 +294,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "julianmiguelalapan.github.io/COMP125-M2020-Assignment_3/Views/partials/footer.html");
+        XHR.open("GET", "/COMP125-M2020-Assignment_3/Views/partials/footer.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -319,7 +319,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "julianmiguelalapan.github.io/COMP125-M2020-Assignment_3/Views/content/contact.html");
+        XHR.open("GET", "/COMP125-M2020-Assignment_3/Views/content/contact.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -346,7 +346,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "julianmiguelalapan.github.io/COMP125-M2020-Assignment_3/Views/content/home.html");
+        XHR.open("GET", "/COMP125-M2020-Assignment_3/Views/content/home.html");
 
         // step 3 - Executes the request
         XHR.send();
@@ -374,7 +374,7 @@
         let XHR = new XMLHttpRequest();
 
         // step 2 - configures the message
-        XHR.open("GET", "COMP125-M2020-Assignment_3/Views/content/projects.html");
+        XHR.open("GET", "./COMP125-M2020-Assignment_3/Views/content/projects.html");
 
         // step 3 - Executes the request
         XHR.send();
